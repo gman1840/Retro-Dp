@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Shrikhand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: theme(colors.cream); --text: theme(colors.ink); }
+html, body { background: var(--bg); color: var(--text); scroll-behavior: smooth; }
+.container { @apply max-w-6xl mx-auto px-6; }
+a { @apply underline-offset-4; }
+
+/* Retro stripe divider */
+.stripes {
+  background: linear-gradient(90deg,
+    #FF8A3D 0%, #FF8A3D 20%,
+    #F7D59B 20%, #F7D59B 40%,
+    #9FD3E9 40%, #9FD3E9 60%,
+    #0F766E 60%, #0F766E 80%,
+    #EF6C57 80%, #EF6C57 100%
+  );
+}
