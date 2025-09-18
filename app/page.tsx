@@ -17,8 +17,7 @@ export default function Page() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Silent Disco Rentals{'
-'}in Orange County & North SD
+              Silent Disco Rentals in Orange County & North SD
             </motion.h1>
             <p className="text-lg md:text-xl text-ink/80 max-w-xl mb-6">
               Retro surf vibes, three music channels, and a dance floor that won’t upset the neighbors.
@@ -48,19 +47,16 @@ export default function Page() {
             <h3 className="font-display text-2xl text-ink mb-2">Pickup (DIY)</h3>
             <p className="text-ink/80">Grab the full kit, quick 10-min demo, run the party yourself.</p>
           </Card>
-
           <Card>
             <MapPin className="w-12 h-12 text-sunset mx-auto mb-4" />
             <h3 className="font-display text-2xl text-ink mb-2">Delivery</h3>
             <p className="text-ink/80">We deliver, set up, and pick up next day. Easy & stress-free.</p>
           </Card>
-
           <Card>
             <Music className="w-12 h-12 text-sunset mx-auto mb-4" />
             <h3 className="font-display text-2xl text-ink mb-2">DJ Helper</h3>
             <p className="text-ink/80">Delivery + live walkthrough for your guests, on-site assistance for your event.</p>
           </Card>
-
           <Card>
             <Mic className="w-12 h-12 text-sunset mx-auto mb-4" />
             <h3 className="font-display text-2xl text-ink mb-2">DJ Pro</h3>
@@ -75,24 +71,34 @@ export default function Page() {
           <H2>What’s a Silent Disco?</H2>
           <div className="space-y-5 text-lg text-ink/85 leading-relaxed text-left md:text-center">
             <p>
-              A silent disco is a party where everyone wears wireless LED headphones tuned into up to three channels. Guests choose their vibe — pop, hip-hop, EDM, or throwbacks — while the room stays quiet. It’s perfect for schools, weddings, corporate events, and backyard parties without upsetting the neighbors.
+              A silent disco is a party where everyone wears wireless LED headphones tuned into up to three channels.
+              Guests choose their vibe — pop, hip-hop, EDM, or throwbacks — while the room stays quiet. It’s perfect for
+              schools, weddings, corporate events, and backyard parties without upsetting the neighbors.
             </p>
             <p>
-              Each headset has its own volume control and lets you switch between <span className="font-semibold">three color-coded channels</span> filled with custom tunes. The earcups glow with the channel you’re on, so the whole party can see what everyone’s jamming to — and switch together for sing-alongs, battles, or throwback moments.
+              Each headset has its own volume control and lets you switch between <span className="font-semibold">three color-coded channels</span> filled with custom tunes.
+              The earcups glow with the channel you’re on, so the whole party can see what everyone’s jamming to — and switch together for sing-alongs,
+              battles, or throwback moments.
             </p>
           </div>
-
           <div className="mt-10">
             <div className="aspect-video w-full rounded-2xl overflow-hidden border border-sand shadow-dpd">
-              <iframe className="w-full h-full" src="https://www.youtube.com/embed/7A68HHodW5o" title="What is a Silent Disco?"
-                frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/7A68HHodW5o"
+                title="What is a Silent Disco?"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>
       </Section>
 
+      <div className="stripes h-3" />
+
       {/* Perfect For */}
-      <div className="stripes h-3"></div>
       <Section>
         <H2>Perfect For…</H2>
         <div className="grid md:grid-cols-3 gap-8 text-center">
@@ -126,10 +132,14 @@ export default function Page() {
         <H2>About Us</H2>
         <div className="max-w-3xl mx-auto text-ink/85 text-lg leading-relaxed text-center space-y-4">
           <p>
-            Hey there! I’m Garrett, and I started Dana Point Disco because I love this community and the way it celebrates connection. The first time I experienced a silent disco was at my Senior Grad Night at Disneyland. I wandered into Cars Land, slipped on a headset, and suddenly I was transported — dancing with friends and total strangers, carefree and completely immersed in the music. That feeling stuck with me, and I thought: <span className="italic">what better place than here in Dana Point to bring that magic to life?</span>
+            Hey there! I’m Garrett, and I started Dana Point Disco because I love this community and the way it celebrates connection.
+            The first time I experienced a silent disco was at my Senior Grad Night at Disneyland. I wandered into Cars Land, slipped on a headset,
+            and suddenly I was transported — dancing with friends and total strangers, carefree and completely immersed in the music. That feeling stuck with me,
+            and I thought: <span className="italic">what better place than here in Dana Point to bring that magic to life?</span>
           </p>
           <p>
-            Today I get to share that joy through Dana Point Disco. I’m married to my wonderful wife, Jenna, and when I’m not helping people throw unforgettable parties, I’m at home with our two cats. For me, silent disco isn’t just about music — it’s about creating moments of connection, laughter, and memories you’ll never forget.
+            Today I get to share that joy through Dana Point Disco. I’m married to my wonderful wife, Jenna, and when I’m not helping people throw unforgettable parties,
+            I’m at home with our two cats. For me, silent disco isn’t just about music — it’s about creating moments of connection, laughter, and memories you’ll never forget.
           </p>
           <div className="flex items-center justify-center gap-6 mt-6">
             <RetroVan className="w-56 h-auto" />
@@ -139,8 +149,9 @@ export default function Page() {
         </div>
       </Section>
 
+      <div className="stripes h-3" />
+
       {/* Quote Form */}
-      <div className="stripes h-3"></div>
       <Section id="quote" className="bg-white">
         <H2>Request a Quote</H2>
         <div className="max-w-3xl mx-auto">
